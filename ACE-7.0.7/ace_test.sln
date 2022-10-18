@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty_ace", "0_thirdparty_ace", "{4204A578-CB2F-4E92-94F9-B976B9C62BB4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ACE", "thirdparty\ACE-7.0.7\ace\ACE_vs2017.vcxproj", "{18A441B9-FECA-1BAD-6757-8A6300006755}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ace", "ace", "{C50B0689-1390-49B6-9FC0-00140B144D41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo", "1_demo", "{A6E719E0-C07B-4E4F-89E4-F7937C099D34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{91D0815C-C5F1-4CE6-AF6E-97B9706485E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test1", "test1", "{ED8D3D5A-DE3F-44ED-BCF0-B5AB4524E333}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ace_test_Client", "demo\test\test1\ace_test_Client\ace_test_Client.vcxproj", "{81255046-6D0B-41B2-9D53-C7D4985FCD11}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ace_test_server", "demo\test\test1\ace_test_server\ace_test_server.vcxproj", "{BEE677F6-AB20-41D5-9319-542FBE628EA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18A441B9-FECA-1BAD-6757-8A6300006755}.Debug|x64.ActiveCfg = Debug|x64
+		{18A441B9-FECA-1BAD-6757-8A6300006755}.Debug|x64.Build.0 = Debug|x64
+		{18A441B9-FECA-1BAD-6757-8A6300006755}.Release|x64.ActiveCfg = Release|x64
+		{18A441B9-FECA-1BAD-6757-8A6300006755}.Release|x64.Build.0 = Release|x64
+		{81255046-6D0B-41B2-9D53-C7D4985FCD11}.Debug|x64.ActiveCfg = Debug|x64
+		{81255046-6D0B-41B2-9D53-C7D4985FCD11}.Debug|x64.Build.0 = Debug|x64
+		{81255046-6D0B-41B2-9D53-C7D4985FCD11}.Release|x64.ActiveCfg = Release|x64
+		{81255046-6D0B-41B2-9D53-C7D4985FCD11}.Release|x64.Build.0 = Release|x64
+		{BEE677F6-AB20-41D5-9319-542FBE628EA6}.Debug|x64.ActiveCfg = Debug|x64
+		{BEE677F6-AB20-41D5-9319-542FBE628EA6}.Debug|x64.Build.0 = Debug|x64
+		{BEE677F6-AB20-41D5-9319-542FBE628EA6}.Release|x64.ActiveCfg = Release|x64
+		{BEE677F6-AB20-41D5-9319-542FBE628EA6}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18A441B9-FECA-1BAD-6757-8A6300006755} = {C50B0689-1390-49B6-9FC0-00140B144D41}
+		{C50B0689-1390-49B6-9FC0-00140B144D41} = {4204A578-CB2F-4E92-94F9-B976B9C62BB4}
+		{91D0815C-C5F1-4CE6-AF6E-97B9706485E1} = {A6E719E0-C07B-4E4F-89E4-F7937C099D34}
+		{ED8D3D5A-DE3F-44ED-BCF0-B5AB4524E333} = {91D0815C-C5F1-4CE6-AF6E-97B9706485E1}
+		{81255046-6D0B-41B2-9D53-C7D4985FCD11} = {ED8D3D5A-DE3F-44ED-BCF0-B5AB4524E333}
+		{BEE677F6-AB20-41D5-9319-542FBE628EA6} = {ED8D3D5A-DE3F-44ED-BCF0-B5AB4524E333}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A8CEE52-492A-4393-9DD8-1A14948800DE}
+	EndGlobalSection
+EndGlobal

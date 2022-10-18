@@ -1,0 +1,42 @@
+//=============================================================================
+/**
+ *  @file    keywords.idl
+ *
+ *  This file contains examples of IDL code that has
+ *  caused problems in the past for the TAO IDL
+ *  compiler. This test is to make sure the problems
+ *  stay fixed.
+ *
+ *  @author Jeff Parsons <parsons@cs.wustl.edu> and TAO users.
+ */
+//=============================================================================
+
+// All these identifiers should be accepted, but
+// prepended with _cxx_.
+
+// IDL identifiers are escaped using _
+
+struct Keywords
+{
+  unsigned short or;
+  char or_eq;
+  octet _private;
+  boolean protected;
+  float _public;
+  double int;
+};
+
+struct _Object {
+  long long id;
+};
+typedef sequence<_Object> ObjectSeq;
+struct Objects {
+  ObjectSeq objs;
+};
+
+interface Testing
+{
+  void foo (in string namespace);
+  void bar (in Objects foo);
+};
+
